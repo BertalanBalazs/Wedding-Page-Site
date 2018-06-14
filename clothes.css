@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+/**** General additions ****/
+
+ body { 
+ color: #444349;
+ text-align: center;
+ font-family: 'Libre Baskerville', serif;
+ font-size: 1.125rem;
+ line-height: 1.5; 
+ width: 100%;
+}
+
+a {
+  color:#bd806e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+}
+
+.h {
+  font-family: 'Libre Baskerville', serif;
+}
+
+img {
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+ /**** Header editing ****/
+
+header {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center ;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.header { 
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.position {
+  background-color: hsla(100,0%,0%,.6);
+}
+
+@media (min-width: 780px) {
+  .position {
+    width: 50%;
+    margin: 25% 25%;
+  }
+}
+
+.Zoe {
+  font-size: 3.2rem;
+}
+
+.getting {
+  letter-spacing: 0.1rem;
+  padding-top: 0.7rem;
+}
+
+.getting::after {
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+  background-color: #fff;
+  content: "";
+  display: block;
+}
+
+.Aug {
+  padding-bottom: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.aug::before{
+  height: 1px;
+  width: 1.3rem;
+  margin: 0.5rem 0.5rem;
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+}
+
+.aug::after{
+  height: 1px;
+  width: 1.3rem;
+  margin: 0.5rem 0.5rem;
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  
+}
+
+/**** Location editing ****/
+
+.Locations {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;
+}
+
+.loc {
+  color: #444349;
+}
+
+.paragloc::after {
+  height: 3px;
+  content: "";
+  background-color: black;
+  display: block;
+  width: 20%;
+  margin: 1.5rem 40%;
+}
+
+@media (min-width: 780px) {
+  .pic {
+     display: inline-block;
+     padding: 0.1%;
+     margin: auto 4%;
+  }
+  
+  .paragloc::after {
+    height: 0px
+    content: ;
+    background-color: black;
+    display: block;
+    width: 0%;
+    margin: 1.5rem 40%;
+  }
+}
+
+/**** Program editing ****/
+
+.Program {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  
+ 
+}
+
+.dark {
+  padding-top: 0.1rem;
+  background-color:hsla(100,0%,0%,.6);
+  padding-bottom: 2rem;
+  color: #d2ba87
+}
+
+ul li {
+  text-align: left ;
+  list-style: none; 
+}
+
+@media (min-width: 780px) {
+  ul  {
+    width: 30vw;
+    margin: 0 auto;
+  }
+}
+
+/**** Gifts editing ****/
+
+.Gifts {
+  padding:  0.1rem;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+
+.g {
+  color: #444349;
+}
+
+/**** Question & Answers editing ****/
+
+.Questions {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+
+.q {
+  padding: 0.1rem 1rem;
+}
+
+.line::after{
+  content: "";
+  display: block;
+  width: 45%;
+  background-color: #d2ba87;
+  height: 0.2rem;
+  margin: 1.5rem 27.5%;
+}
+
+.left {
+  text-align: left;
+  line-height: 1.7rem;
+}
+
+@media (min-width: 780px)  {
+  .media {
+    display: inline-block;
+    max-width: 28%;
+    margin: 3% 2.5%;
+    vertical-align: top;
+  }
+  
+  .line::after{
+    display: none;
+  }
+  
+}
+
+/**** Contact editing ****/
+.Contact {
+  padding: 0.1rem 2rem;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+}
+
+/**** Footer editing ****/
+
+s.sticky {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 3.5rem;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  font-size: 1 rem;
+  background-color: #606060;
+  bottom: 0re; 
+  left: 0;
+  height: 3.5rem
+}
+
+.footp {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.h {
+  color: white;
+}
